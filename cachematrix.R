@@ -2,9 +2,10 @@
 ## inverse of a matrix. 
 
 ## When providing a matrix in the argument of this function,
-## the user can cache the inverse of a matrix and also have
-## access to four functions. x[1] = set the matrix, x[2] = get
-## the matrix, x[3] = set the inverse, x[4] = get the inverse
+## the user can cache the inverse of that matrix and also have
+## access to four functions. 1) set the vector, 2) get
+## the vector, 3) cache the inverse, 4) get the cached
+## inverse
 
 makeCacheMatrix <- function(x = matrix()) {
      inv <- NULL
